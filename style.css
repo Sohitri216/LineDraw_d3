@@ -1,0 +1,31 @@
+svg {
+    border: 1px solid grey;
+}
+/* html, body { margin:0; padding:0; overflow:hidden } */
+svg { position:fixed; top:0; left:0; height:100%; width:100% }
+
+line {
+    stroke: steelblue;
+    stroke-width: 5px;
+    stroke-linecap: square;
+}
+.wrapper{
+    position: absolute;
+    width:600px;
+    margin:50px;
+    /* width: 50%; */
+    width:500px;
+    height: 500px;
+}
+.left-panel{
+    float: left;
+}
+.right-panel{
+    float:right;
+}
+.left-panel>div,.right-panel>div{
+    padding:10px;
+    width:50px;
+    margin-bottom: 50px;
+    border:1px solid #111;
+}
